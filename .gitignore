@@ -1,0 +1,228 @@
+# ============================================================================
+# PYTHON BYTECODE & ARTIFACTS
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# VIRTUAL ENVIRONMENT (DO NOT COMMIT)
+# ============================================================================
+venv/
+ENV/
+env/
+.venv
+venv_old/
+.virtualenv
+
+# ============================================================================
+# IDE & EDITOR FILES (PERSONAL - DO NOT COMMIT)
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+.settings/
+*.iml
+.classpath
+*.code-workspace
+.history/
+.ionide/
+
+# ============================================================================
+# JUPYTER NOTEBOOK
+# ============================================================================
+.ipynb_checkpoints
+*.ipynb
+
+# ============================================================================
+# TESTING & COVERAGE
+# ============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# ============================================================================
+# PRE-TRAINED MODELS (LARGE FILES - DO NOT COMMIT)
+# ============================================================================
+# These are downloaded automatically when needed
+*.pt
+*.pth
+*.weights
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.pickle
+models/
+*.model
+
+# ============================================================================
+# VIDEO FILES (LARGE - DO NOT COMMIT EXCEPT SAMPLE)
+# ============================================================================
+# Processing videos should not be committed
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+videos/
+recordings/
+
+# ============================================================================
+# GENERATED OUTPUTS & RESULTS (DO NOT COMMIT)
+# ============================================================================
+outputs/
+results/
+*.csv
+*.json
+*.xlsx
+*.xls
+reports/
+analysis/
+processed_videos/
+annotations/
+
+# ============================================================================
+# LOGS & DEBUGGING (DO NOT COMMIT)
+# ============================================================================
+*.log
+logs/
+*.debug
+debug/
+*.err
+errors/
+*.trace
+
+# ============================================================================
+# TEMPORARY & CACHE FILES (DO NOT COMMIT)
+# ============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+cache/
+tmp/
+temp/
+*.swp
+*.swo
+
+# ============================================================================
+# OPERATING SYSTEM FILES (DO NOT COMMIT)
+# ============================================================================
+Thumbs.db
+.DS_Store
+desktop.ini
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# SENSITIVE & CONFIGURATION (DO NOT COMMIT - SECURITY CRITICAL)
+# ============================================================================
+# Never commit credentials, API keys, tokens, or personal data
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+secrets.json
+credentials.json
+credentials.txt
+api_keys.txt
+tokens.json
+config/secrets/
+private/
+.aws/
+.credentials/
+*.pem
+*.key
+*.private
+
+# ============================================================================
+# PERSONAL & LOCAL DATA (DO NOT COMMIT)
+# ============================================================================
+# Local configuration and personal files
+local_config.py
+personal/
+my_videos/
+my_data/
+test_videos/
+local_results/
+*.personal
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================================
+# BUILD & DISTRIBUTION (DO NOT COMMIT)
+# ============================================================================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+*.tar.gz
+
+# ============================================================================
+# MARKDOWN FILES - KEEP ONLY README.md
+# ============================================================================
+# Only README.md for recruiters - hide other documentation files
+INTERVIEW_PREPARATION.md
+RESUME_ENTRY.md
+RESUME_COPY_PASTE.md
+RESUME_2POINT_GUIDE.md
+COMPLETION_SUMMARY.md
+GITHUB_COMMIT_GUIDE.md
+FINAL_SUMMARY.md
+INDEX.md
+MD_FILES_GITHUB_GUIDE.md
+PROJECT_COMPLETE.txt
+
+# ============================================================================
+# KEEP THESE FILES (EXCEPTIONS)
+# ============================================================================
+!sample/
+!sample/traffic_sample.mp4
+!sample/traffic_sample.jpg
+!sample/.gitkeep
+!outputs/.gitkeep
+!requirements.txt
+!README.md
+!.gitignore
